@@ -48,12 +48,12 @@ Currently, the chatbot supports fetching articles from the following websites:
     ```json
     {
         "provider": "openai",
-        "model": "<model-name>",
-        "temperature": 0.7
+        "model": "gpt-4o",
+        "temperature": 0
     }
     ```
 
-5. Create a `.env` file in the root directory with your environment variables. Example:
+5. Create a `.env` file in the root directory with the required environment variables. Example:
     ```env
     OPENAI_API_KEY=<your-openai-api-key>
     ```
