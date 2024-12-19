@@ -1,0 +1,27 @@
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E", "F", "RET", "B", "I", "N", "W", "TID", "D", "Q", "COM",
+    "SIM113",
+    "PLR0202",
+    "RUF031"
+]
+ignore = [
+    "D100", # undocumented-public-module
+    "D104", # undocumented-public-package
+    "D107", # undocumented-public-init
+    "D203", # one-blank-line-before-class: as two blank lines are used
+    "D211", # no-blank-line-before-class: two blank lines are used
+    "D205", # blank-line-after-summary: multi-line summary is used
+    "D212", # multi-line-summary-first-line: contradicting with D213
+    "COM812" # missing-trailing-comma
+]
+preview = true
+explicit-preview-rules = true
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
