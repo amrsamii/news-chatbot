@@ -4,6 +4,8 @@ This project is a news chatbot that fetches and summarizes articles from news we
 
 The chatbot is built using Python and integrates with Streamlit for the user interface, and LangChain for language model operations.
 
+The design is based on the React Agent model.
+
 ## Screenshots
 ![Screenshot 1](images/the_guardian.png)
 
