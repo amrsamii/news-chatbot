@@ -27,14 +27,14 @@ Currently, the chatbot supports fetching articles from the following websites:
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/amrsamii/news-chatbot.git
+    cd news-chatbot
     ```
 
 2. Create and activate a virtual environment:
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    python -m venv .venv
+    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
     ```
 
 3. Install the required packages:
