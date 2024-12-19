@@ -1,0 +1,5 @@
+{
+  "provider": "azure",
+  "model": "gpt-4o",
+  "temperature": 0
+}
