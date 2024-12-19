@@ -1,6 +1,6 @@
 from typing import List
 
-from scrapping_utils import fetch_articles
+from scraping_utils import fetch_articles
 
 
 def search_bbc(category: str) -> List[str]:

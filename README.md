@@ -70,7 +70,7 @@ Currently, the chatbot supports fetching articles from the following websites:
 - `main.py`: Initializes the Streamlit app and handles user interactions.
 - `graph.py`: Defines the `NewsGraph` class for processing user queries.
 - `tools.py`: Contains functions to fetch articles from news websites.
-- `scrapping_utils.py`: Utility functions for web scraping.
+- `scraping_utils.py`: Utility functions for web scraping.
 - `requirements.txt`: Lists the dependencies required for the project.
 - `config.json`: Configuration file for the language model.
 - `.env`: Environment variables file (not included in the repo).
